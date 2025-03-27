@@ -11,3 +11,8 @@ source ~/.zshrc
 https://youtu.be/mba8cnGcgqE?si=f1tvRIsxcB8_VmVr
 
 #스토어 설치
+
+GitLens
+Meterial Icon Theme
+Community Material Theme
+
