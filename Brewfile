@@ -14,7 +14,7 @@ brew "fzf"                       # 터미널에서 검색 지원
 
 # 개발 환경 관련 도구
 brew "node"                      # Node.js
-brew "python@3.12" 	             # Python 버전 업데이트
+brew "python" 	                 # Python 버전 업데이트
 brew "openjdk"                   # Java Development Kit
   #brew "rust"       		           # Rust 언어 추가
 
