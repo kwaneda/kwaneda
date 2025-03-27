@@ -1,7 +1,7 @@
 # Homebrew Tap 추가
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/core"
+#tap "homebrew/cask"            ## 더 이상 별도로 탭할 필요가 없으며, --force 옵션을 추가해야 합니다.
+tap "homebrew/cask-fonts"       ## 이 저장소는 더 이상 사용되지 않으며, 모든 폰트는 homebrew/cask로 이전되었습니다.
+tap "homebrew/core"             ## 기본적으로 포함되어 있으므로 별도로 탭할 필요가 없습니다.
 
 # 필수 CLI 도구
 brew "git"                       # Git 버전 관리 도구
@@ -16,9 +16,7 @@ brew "fzf"                       # 터미널에서 검색 지원
 brew "node"                      # Node.js
 brew "python@3.12" 	             # Python 버전 업데이트
 brew "openjdk"                   # Java Development Kit
-brew "docker"                    # Docker 컨테이너 관리
-brew "rust"       		           # Rust 언어 추가
-cask "cursor"		                 ##Cursor AI
+  #brew "rust"       		           # Rust 언어 추가
 
 # 유용한 CLI 유틸리티
 brew "bat"                       # cat 명령어 대체 (하이라이트 지원)
@@ -29,13 +27,13 @@ brew "ripgrep"                   # 고속 검색 도구 추가
 
 # GUI 애플리케이션 (Cask)
 cask "google-chrome"             # 구글 크롬 브라우저
+cask "zen-browser"	             ##zen browser
 cask "visual-studio-code"        # VS Code 에디터
-cask "slack"                     # 슬랙 메신저
+  #cask "slack"                     # 슬랙 메신저
 cask "iterm2"                    # iTerm2 터미널
 cask "docker"                    # Docker 데스크톱 앱
 cask "rectangle"   		           # 창 관리 도구 (Magnet 대체)
 cask "topnotch"	               	 ##탑노치
-cask "zen-browser"	             ##zen browser
 cask "bitwarden"		             ##bitwarden
 cask "menubarx"		               ##MenubarX
 cask "hiddenbar"		             ##hiddenbar
@@ -47,7 +45,8 @@ cask "microsoft-word"	           ##MS-Word
 cask "figma"		                 ##figma
 cask "obsidian"		               ##obsidian
 cask "maccy"                     ##maccy
-
+cask "cursor"		                 ##Cursor AI
+cask "telegram-desktop"          ##텔레그램 메신저
 
 # App Store 프로그램 (MAS)
 mas "Xcode", id: 497799835       # Xcode (앱스토어 ID 필요)
