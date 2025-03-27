@@ -46,6 +46,7 @@ cask "microsoft-powerpoint"	     ##MS-PP
 cask "microsoft-word"	           ##MS-Word
 cask "figma"		                 ##figma
 cask "obsidian"		               ##obsidian
+cask "maccy"                     ##maccy
 
 
 # App Store 프로그램 (MAS)
