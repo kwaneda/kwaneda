@@ -34,6 +34,7 @@ brew "gh"
 # GUI 애플리케이션 (Cask)
 cask "google-chrome"             # 구글 크롬 브라우저
 cask "zen-browser"	             ##zen browser
+cask "brave-browser"              # Brave browser
 cask "visual-studio-code"        # VS Code 에디터
   #cask "slack"                     # 슬랙 메신저
 cask "iterm2"                    # iTerm2 터미널
@@ -52,6 +53,7 @@ cask "figma"		                 ##figma
 cask "obsidian"		               ##obsidian
 cask "maccy"                     ##maccy
 cask "cursor"		                 ##Cursor AI
+cask "raycast"                  ## raycast
 
 # App Store 프로그램 (MAS)
 mas "Xcode", id: 497799835       # Xcode (앱스토어 ID 필요)
