@@ -25,6 +25,12 @@ brew "tree"                      # 디렉토리 구조 보기
 brew "autojump"                  # 디렉토리 빠른 이동
 brew "ripgrep"                   # 고속 검색 도구 추가
 
+brew "go"
+brew "pipenv"
+brew "nvm"
+brew "gh"
+
+
 # GUI 애플리케이션 (Cask)
 cask "google-chrome"             # 구글 크롬 브라우저
 cask "zen-browser"	             ##zen browser
