@@ -52,7 +52,6 @@ cask "figma"		                 ##figma
 cask "obsidian"		               ##obsidian
 cask "maccy"                     ##maccy
 cask "cursor"		                 ##Cursor AI
-cask "telegram-desktop"          ##텔레그램 메신저
 
 # App Store 프로그램 (MAS)
 mas "Xcode", id: 497799835       # Xcode (앱스토어 ID 필요)
